@@ -1,0 +1,27 @@
+public class Main extends javax.swing.JPanel {
+    static java.util.List<java.util.List<int[]>> graph;
+    static boolean[] visited;
+    static int n;
+    static boolean directed;
+    static java.util.List<java.lang.Integer> order;
+    static java.util.Set<java.lang.String> treeEdges;
+    static int currentNode;
+    int[][] pos;
+    javax.swing.JTextArea output;
+
+    public Main(int n, javax.swing.JTextArea output) { /* compiled code */ }
+
+    static void reset(Main p) { /* compiled code */ }
+
+    static void BFS(int start, Main p) { /* compiled code */ }
+
+    static void DFS(int start, Main p) { /* compiled code */ }
+
+    static int totalComponents() { /* compiled code */ }
+
+    static void explore(int node, boolean[] vis) { /* compiled code */ }
+
+    protected void paintComponent(java.awt.Graphics g) { /* compiled code */ }
+
+    public static void main(java.lang.String[] args) { /* compiled code */ }
+}
